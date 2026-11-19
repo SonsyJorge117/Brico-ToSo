@@ -1,0 +1,44 @@
+
+body {background-color:bisque;
+    background-image: url(bricolage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;}
+
+h1 {font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #D2691E;
+    text-align: center;}
+
+
+h2 {font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color:rgb(255, 78, 78)}
+
+h3, body > h1 {font-family: Arial, sans-serif;
+    font-size: 25px;
+    color:royalblue; }
+
+form ~ h1, body > h1:only-of-type {color:red;}
+
+
+p, li {font-family: Arial, sans-serif;}
+
+a:link {color:darkcyan }
+
+a:visited {color: gray;}
+
+a:hover {font-weight: bold;
+    color:#D2691E;}
+
+a:active {color: green;}
+
+table {width: 33%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: AntiqueWhite;}
+
+table, th, td {
+    border: 2px solid green;}
+label {font-family: Arial, sans-serif;
+    font-size: 18px;}
